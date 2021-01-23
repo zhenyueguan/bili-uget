@@ -18,7 +18,7 @@ you-get
 #### 使用说明
 
 1.  没有python环境的直接执行exe文件即可，不需安装任何包，但是需要下载个ffmpeg,别忘了将ffmpeg.exe所在目录添加到环境变量,
-    合并为mp4文件时候需要用到,这个快200M了就不放进来了。
+    合并为mp4文件时候需要用到,这个快200M了就不放进来了   [ffmpeg下载](https://pan.baidu.com/s/1ZVWakNq27AnIt8ZvPk6sXw) 提取码: mr45 
 2.  有python环境的直接执行.py文件即可
 
 #### 参与贡献
