@@ -6,7 +6,7 @@
 #### 软件架构
 pyqt5
 you-get
-一个线程负责界面加载，另一个线程使用协程开启异步多任务下载
+一个线程负责界面加载，另一个线程使用协程开启异步多任务下载,但是you-get库会另起一个进程在cmd命令行里输出下载信息。相当于两个进程，多线程加协程，项目最初灵感来自于https://github.com/xiuxinY/BiliBili_Mp4_Download，自己使用浏览器插件和别的工具总觉得各种不方便，遂决定在youtube-dl和you-get基础上改进，但是后续下载过程中youtube-dl不使用代理情况下很容易被禁，于是决定用you-get来做。cookies.sqlite文件是空的，如果想下载更高画质的视频可以把你在火狐浏览器的B站登录cookie文件导出，替换掉这个同名文件即可。
 
 
 ###安装教程
@@ -19,7 +19,7 @@ you-get
 
 1.  没有python环境的直接执行exe文件即可，不需安装任何包，但是需要下载个ffmpeg,别忘了将ffmpeg.exe所在目录添加到环境变量,
     合并为mp4文件时候需要用到,这个快200M了就不放进来了   [ffmpeg下载](https://pan.baidu.com/s/1ZVWakNq27AnIt8ZvPk6sXw) 提取码: mr45 
-2.  有python环境的直接执行.py文件即可
+2.  有python环境的下载需要的包后直接执行.py文件即可
 
 #### 参与贡献
 
